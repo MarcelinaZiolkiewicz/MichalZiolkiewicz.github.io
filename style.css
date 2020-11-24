@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.leftSide{
+    width: 67%;
+    height: 100vh;
+    background-color: #CEDFE4;
+}
+
+#scrollDown{
+    height: 200px;
+    width: 100px;
+    margin: 10vh auto;
+}
+
+.text{
+    font-size: 45px;
+    margin: 32vh auto 0 auto;
+    width: 75%;
+}
+
+.text p:first-of-type{
+    margin-bottom: 40px;
+}
+
+
+.rightSide{
+    width: calc(100% - 67%);
+    height: 100vh;
+    background-image: linear-gradient(#014872,#D7EDE1);
+    color: #D7EDE1;
+    position: relative;
+}
+
+.rightSide h1{
+    font-size: 40px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.rightSide h1:first-of-type{
+    margin-top: 25vh;
+}
+
+
+.photo{
+    height: 15vw;
+    width: 15vw;
+    border-radius: 40px;
+    margin: 2vh auto;
+    display: block;
+    background-image: url("img/me.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    box-sizing: border-box;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*MENU*/
+
+.mainNavi{
+    width: 67%;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.mainNavi li{
+    list-style: none;
+    float: left;
+    margin: 20px 10px;
+    padding-right: 20px;
+    border-right: 3px solid #014872;
+    transition: 0.3s;
+}
+
+.mainNavi a:link, a:visited {
+    color: #014872;
+    text-decoration: none;
+}
+
+.mainNavi li:hover{
+    background-color: azure;
+    /*border:2px solid #014872;*/
+    padding-left: 20px;
+}
