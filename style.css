@@ -235,3 +235,10 @@ body{
 .calculator{
     background-image: url("img/calculator.jpg");
 }
+
+/*czwarta sekcja - doświadczenie*/
+
+#experience{
+    height: 100vh;
+    background-color: #CEDFE4;
+}
