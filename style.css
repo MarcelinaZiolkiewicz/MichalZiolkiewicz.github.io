@@ -6,10 +6,12 @@
 }
 html{
     scroll-behavior: smooth;
+
 }
 body{
     font-family: 'Source Code Pro', monospace;
-
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .leftSide{
@@ -52,7 +54,6 @@ body{
 .rightSide h1:first-of-type{
     margin-top: 25vh;
 }
-
 
 .photo{
     height: 15vw;
@@ -139,4 +140,98 @@ body{
 #projects{
     height: 100vh;
     background-image: linear-gradient(#EAE5C9, #CEDFE4);
+}
+
+.project{
+    height: 25vh;
+    width: 60vw;
+    background-color: #ABCEC8;
+    color: #004043;
+}
+
+
+.project h3{
+    font-size: 35px;
+}
+
+.project p{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.image{
+    height: 25vh;
+    width: 22vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icons{
+    width: calc(60vw - 22vw);
+    padding: 20px 20px 10px 20px;
+    box-sizing: border-box;
+}
+
+.project img{
+    transition: .3s;
+}
+
+.toRight img:hover{
+    transform: rotate(-30deg);
+}
+
+.toLeft img:hover{
+    transform: rotate(30deg);
+}
+
+.toLeft{
+    float: left;
+    margin: 50px 0 0 8vw ;
+    text-align: left;
+    transition: .3s;
+}
+.toLeft .image{
+    float: left;
+}
+.toLeft .icons{
+    float: left;
+}
+
+.toLeft:hover{
+    margin-left: 10vw;
+}
+
+.toRight{
+    float: right;
+    margin: 50px 8vw 0 0 ;
+    text-align: right;
+    transition:  .3s;
+}
+
+.toRight .image{
+    float: right;
+}
+
+.toRight .icons{
+    float: left;
+}
+
+.toRight:hover{
+    margin-right: 10vw;
+}
+
+.invisible{
+    display: none;
+}
+
+.pizza{
+    background-image: url("img/pizza.jpg");
+}
+.travelAgency{
+    background-image: url("img/travel.jpg");
+}
+
+.calculator{
+    background-image: url("img/calculator.jpg");
 }
