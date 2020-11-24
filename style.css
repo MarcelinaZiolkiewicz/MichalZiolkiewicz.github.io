@@ -137,5 +137,6 @@ body{
 /*Trzeci segment projekty*/
 
 #projects{
-
+    height: 100vh;
+    background-image: linear-gradient(#EAE5C9, #CEDFE4);
 }
