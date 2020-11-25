@@ -1,2 +1,3 @@
 # PortfolioSite
-Moja strona portfolio jako junior web dev
+Moja strona portfolio
+
