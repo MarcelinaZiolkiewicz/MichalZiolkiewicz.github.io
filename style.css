@@ -58,7 +58,7 @@ body{
 .photo{
     height: 15vw;
     width: 15vw;
-    border-radius: 40px;
+    border-radius: 50px;
     margin: 2vh auto;
     display: block;
     background-image: url("img/me.jpg");
@@ -234,4 +234,35 @@ body{
 
 .calculator{
     background-image: url("img/calculator.jpg");
+}
+
+/*czwarta sekcja - doświadczenie*/
+
+#experience{
+    height: 100vh;
+    background-color: #CEDFE4;
+    color: #004043;
+}
+
+.leftText{
+    float: left;
+    width: 66%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 80px 80px;
+}
+
+.leftText h3{
+    font-size: 45px;
+}
+
+.topText p {
+    font-size: 38px;
+}
+
+.sideAnimation{
+    float: left;
+    width: calc(100% - 67%);
+    height: 100vh;
+    background-color: #D7EDE1;
 }
