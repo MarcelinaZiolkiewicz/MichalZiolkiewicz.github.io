@@ -11,7 +11,7 @@
       <div class="clearfix" id="start">
           <div class="leftSide box">
               <nav class="mainNavi">
-                  <ul>
+                  <ul class="clearfix">
                       <li><a href="#about">O mnie</a></li>
                       <li><a href="#projects">Projekty</a></li>
                       <li><a href="#experience">Doświadczenie</a></li>
@@ -57,8 +57,8 @@
           <div class="toRight project animate__animated">
               <div class="calculator image"></div>
               <section class="icons">
-                  <h3>Pizzeria</h3>
-                  <p>Projekt strony internetowej pizzerii. Kod jest dostępny na GitHubie.</p>
+                  <h3>Kalkulator</h3>
+                  <p>Kalkulator napisany w czystym JS. Kod jest dostępny na GitHubie.</p>
                   <img src="img/icons/html5.png" alt="html5 logo"/>
                   <img src="img/icons/css3.png" alt="css3 logo"/>
                   <img src="img/icons/js.png" alt="javascript logo"/>
@@ -87,22 +87,24 @@
             </div>
             <div class="technologies">
                 <h3>Technologie: </h3>
-                <section class="programming">
-                    <p>Programowanie:</p>
-                    <img src="img/icons/html5.png" alt="html5 logo"/>
-                    <img src="img/icons/css3.png" alt="css3 logo"/>
-                    <img src="img/icons/js.png" alt="javascript logo"/>
-                </section>
-                <section class="programs">
-                    <p>Programy: </p>
-                    <img src="img/icons/xd.png" alt="adobe xd logo">
-                    <img src="img/icons/visualstudio.png" alt="visual studio logo">
-                </section>
-                <section class="versionControl">
-                    <p>System kontroli wersji:</p>
-                    <img src="img/icons/github.png" alt="github logo">
-                    <img src="img/icons/bitbucket.png" alt="bitbucket logo">
-                </section>
+                <div class="wrap clearfix">
+                    <section class="programming">
+                        <p>Programowanie:</p>
+                        <img src="img/icons/html5.png" alt="html5 logo"/>
+                        <img src="img/icons/css3.png" alt="css3 logo"/>
+                        <img src="img/icons/js.png" alt="javascript logo"/>
+                    </section>
+                    <section class="programs">
+                        <p>Programy: </p>
+                        <img src="img/icons/xd.png" alt="adobe xd logo">
+                        <img src="img/icons/visualstudio.png" alt="visual studio logo">
+                    </section>
+                    <section class="versionControl">
+                        <p>System kontroli wersji:</p>
+                        <img src="img/icons/github.png" alt="github logo">
+                        <img src="img/icons/bitbucket.png" alt="bitbucket logo">
+                    </section>
+                </div>
             </div>
         </div>
         <div class="sideAnimation">
@@ -119,7 +121,7 @@
                   <h3>Jesteś zainteresowan* współpracą?</h3>
                   <p>Skontaktuj się przez poniższy formularz lub bezpośrednio przez mail, numer telefonu lub  LinkedIn.</p>
               </div>
-              <form action="https://formsubmit.co/228f86219728a2968b15234570d6498f" method="POST" >
+              <form action="https://formsubmit.co/228f86219728a2968b15234570d6498f" method="POST" class="clearfix" >
                   <div class="formEl">
                       <label for="firstName">Imię</label>
                       <input type="text" id="firstName" name="firstName">

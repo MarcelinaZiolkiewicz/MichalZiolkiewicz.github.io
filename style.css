@@ -21,14 +21,14 @@ body{
 }
 
 #scrollDown{
-    height: 200px;
-    width: 100px;
-    margin: 10vh auto;
+    height: 24vh;
+    width: 12vh;
+    margin: 8vh auto;
 }
 
 .text{
-    font-size: 45px;
-    margin: 32vh auto 0 auto;
+    font-size: 2.5vw;
+    margin: 26vh auto 0 auto;
     width: 75%;
 }
 
@@ -46,7 +46,7 @@ body{
 }
 
 .rightSide h1{
-    font-size: 40px;
+    font-size: 2vw;
     padding: 0 20px;
     text-align: center;
 }
@@ -81,8 +81,8 @@ body{
 /*MENU*/
 
 .mainNavi{
-    width: 67%;
-    font-size: 30px;
+    width: 100%;
+    font-size: 1.7vw;
     margin-left: 20px;
 }
 
@@ -115,24 +115,23 @@ body{
 }
 .aboutText{
     width: 70%;
-    padding: 5vw 0 0 5vw;
+    padding: 3vw 0 0 3vw;
 }
 .aboutText h3{
-    font-size: 50px;
+    font-size: 3vw;
     color: black;
 }
 
 .aboutText p{
-    font-size: 40px;
+    font-size: 2.5vw;
     color: #004043;
 }
 
 #coding{
-    height: 35vh;
-    width: 35vh;
-    position: relative;
-    left: 75%;
-    bottom: 15vh;
+    height: 30vh;
+    width: 30vh;
+    float: right;
+    margin-top: -15vw;
 }
 
 /*Trzeci segment projekty*/
@@ -144,19 +143,18 @@ body{
 
 .project{
     height: 25vh;
-    width: 60vw;
+    width: 70vw;
     background-color: #ABCEC8;
     color: #004043;
 }
 
-
 .project h3{
-    font-size: 35px;
+    font-size: 2vw;
 }
 
 .project p{
-    font-size: 25px;
-    padding-bottom: 20px;
+    font-size: 1.5vw;
+    padding-bottom: 2vh;
 }
 
 .image{
@@ -168,13 +166,17 @@ body{
 }
 
 .icons{
-    width: calc(60vw - 22vw);
+    width: calc(60vw - 12vw);
     padding: 20px 20px 10px 20px;
     box-sizing: border-box;
 }
 
 .project img{
     transition: .3s;
+    height: 4vw;
+    width: 4vw;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .toRight img:hover{
@@ -214,7 +216,7 @@ body{
 }
 
 .toRight .icons{
-    float: left;
+    float: right;
 }
 
 .toRight:hover{
@@ -243,21 +245,23 @@ body{
     background-color: #CEDFE4;
     color: #004043;
 }
-
+.wrap{
+    height: 10vh;
+}
 .leftText{
     float: left;
     width: 66%;
     height: 100vh;
     box-sizing: border-box;
-    padding: 80px 80px;
+    padding: 60px 60px;
 }
 
 .leftText h3{
-    font-size: 45px;
+    font-size: 2.5vw;
 }
 
 .topText p {
-    font-size: 38px;
+    font-size: 2.2vw;
 }
 
 .sideAnimation{
@@ -272,20 +276,21 @@ body{
 }
 
 .technologies img{
-    height: 60px;
-    width: 60px;
+    height: 5vw;
+    width: 5vw;
+    max-height: 60px;
+    max-width: 60px;
 }
 
 .technologies section{
      width: 45%;
      float: left;
-    margin-top: 40px;
+     margin-top: 40px;
  }
 
 .programming,
 .versionControl{
-    margin-left: 75px;
-
+    margin-left: 5vw;
 }
 
 .animBcg{
@@ -297,7 +302,6 @@ body{
     background-size: cover;
     float: right;
     margin-top: calc(100vh - 765px);
-    /*overflow-x: hidden;*/
 }
 
 #plant{
@@ -450,3 +454,5 @@ body{
     font-size: 20px;
     border-top: 1px solid gray;
 }
+
+/*@media (max-width: 1280px) and (orientation: landscape) {}*/
