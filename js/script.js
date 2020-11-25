@@ -14,4 +14,11 @@ var coding = bodymovin.loadAnimation({
     path: "./lottie/coding.json",
 });
 
+var plant = bodymovin.loadAnimation({
+    container: document.getElementById('plant'),
+    render: 'svg',
+    loop: true,
+    autoplay: true,
+    path: "./lottie/plant.json",
+});
 

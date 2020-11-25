@@ -261,8 +261,192 @@ body{
 }
 
 .sideAnimation{
-    float: left;
+    float: right;
     width: calc(100% - 67%);
     height: 100vh;
-    background-color: #D7EDE1;
+    /*background-color: #D7EDE1;*/
+}
+
+.technologies p{
+    font-size: 30px;
+}
+
+.technologies img{
+    height: 60px;
+    width: 60px;
+}
+
+.technologies section{
+     width: 45%;
+     float: left;
+    margin-top: 40px;
+ }
+
+.programming,
+.versionControl{
+    margin-left: 75px;
+
+}
+
+.animBcg{
+    background-image: url("img/bcgPlant.png");
+    height: 765px;
+    width: 495px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-top: calc(100vh - 765px);
+    /*overflow-x: hidden;*/
+}
+
+#plant{
+    height: 50vh;
+    width: 25vw;
+    float: right;
+    margin-top: calc(765px - 50vh);
+    margin-right: -70px;
+}
+
+/*CONTACT*/
+
+#contact{
+    height: 100vh;
+    background-image: linear-gradient(#CEDFE4,#D8D1D1);
+}
+
+.message{
+    width: 60%;
+    float: left;
+    color: #004043;
+}
+
+.message form{
+    height: 50vh;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.formEl{
+    height: 10vh;
+    width: 10vw;
+    font-size: 25px;
+    float: left;
+    margin-right: 110px;
+}
+.txtArea{
+    height: 38vh;
+    width: 38vw;
+}
+
+.formEl input{
+    height: 4vh;
+    width: 12vw;
+    border: none;
+    background-color: #E1EFF5;
+    padding-left: 15px;
+    font-size: 18px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    outline: none;
+}
+
+.formEl input:focus{
+    border: none;
+}
+
+.formEl textarea{
+    border: none;
+    background-color: #E1EFF5;
+    padding: 20px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    outline: none;
+    display: block;
+    font-size: 20px;
+}
+
+.formEl textarea:focus{
+    border: none;
+}
+
+.description{
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.description p{
+    font-size: 35px;
+}
+
+.description h3{
+    font-size: 45px;
+}
+
+.rightInfo{
+    float: right;
+    width: calc(100% - 61%);
+    height: 100vh;
+}
+
+.sendMsg{
+    display: block;
+    height: 4vh;
+    width: 12vw;
+    border: none;
+    background-color: #E1EFF5;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    transition: .3s;
+}
+.sendMsg:hover{
+    background-color: #004043;
+    color: #D7EDE1;
+}
+
+.rightInfo .contactBox{
+    height: 19vw;
+    width: 19vw;
+    background-color: #E1EFF5;
+    margin: 60% 0 0 20%;
+    box-shadow: -35px -35px #B5D7E6;
+    box-sizing: border-box;
+    padding: 60px 20px 20px 20px;
+    font-size: 20px;
+    color: #004043;
+}
+
+.contactBox h3{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.contactBox p{
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.contactBox a{
+    text-decoration: none;
+    color: #004043;
+    transition: .3s;
+}
+
+.contactBox a:hover{
+    padding-left: 10px;
+    color: #004043;
+}
+
+/*stopka*/
+.footer{
+    background-color: #CEDFE4;
+    color: black;
+    text-align: center;
+    height: 3vh;
+    line-height: 3vh;
+    font-size: 20px;
+    border-top: 1px solid gray;
 }

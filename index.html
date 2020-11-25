@@ -15,7 +15,7 @@
                       <li><a href="#about">O mnie</a></li>
                       <li><a href="#projects">Projekty</a></li>
                       <li><a href="#experience">Doświadczenie</a></li>
-                      <li><a href="#">Kontakt</a></li>
+                      <li><a href="#contact">Kontakt</a></li>
                   </ul>
               </nav>
               <div class="text">
@@ -89,12 +89,19 @@
                 <h3>Technologie: </h3>
                 <section class="programming">
                     <p>Programowanie:</p>
-                </section>
-                <section class="versionControl">
-                    <p>System kontroli wersji:</p>
+                    <img src="img/icons/html5.png" alt="html5 logo"/>
+                    <img src="img/icons/css3.png" alt="css3 logo"/>
+                    <img src="img/icons/js.png" alt="javascript logo"/>
                 </section>
                 <section class="programs">
                     <p>Programy: </p>
+                    <img src="img/icons/xd.png" alt="adobe xd logo">
+                    <img src="img/icons/visualstudio.png" alt="visual studio logo">
+                </section>
+                <section class="versionControl">
+                    <p>System kontroli wersji:</p>
+                    <img src="img/icons/github.png" alt="github logo">
+                    <img src="img/icons/bitbucket.png" alt="bitbucket logo">
                 </section>
             </div>
         </div>
@@ -106,7 +113,53 @@
       </div>
 
 <!--      CONTACT      -->
+      <div id="contact">
+          <div class="message">
+              <div class="description">
+                  <h3>Jesteś zainteresowan* współpracą?</h3>
+                  <p>Skontaktuj się przez poniższy formularz lub bezpośrednio przez mail, numer telefonu lub  LinkedIn.</p>
+              </div>
+              <form action="https://formsubmit.co/228f86219728a2968b15234570d6498f" method="POST" >
+                  <div class="formEl">
+                      <label for="firstName">Imię</label>
+                      <input type="text" id="firstName" name="firstName">
+                  </div>
+                  <div class="formEl">
+                      <label for="email">E-mail</label>
+                      <input type="email" id="email" name="email">
+                  </div>
+                  <div class="formEl">
+                      <label for="phoneNum">Telefon</label>
+                      <input type="text" id="phoneNum" name="phoneNum">
+                  </div>
+                  <div class="formEl txtArea">
+                      <label for="message">Wiadomość</label>
+                      <textarea name="message" id="message" cols="65" rows="11"></textarea>
+                  </div>
+                  <div class="formEl">
+                      <button type="submit" class="sendMsg">Wyślij</button>
+                  </div>
+                  <input type="hidden" name="_template" value="table">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="text" name="_honey" style="display:none">
 
+              </form>
+          </div>
+          <div class="rightInfo">
+              <div class="contactBox">
+                  <h3>Mail:</h3>
+                  <p>m.ziolkiewicz1@gmail.com</p>
+                  <h3>Telefon:</h3>
+                  <p>+48 783 775 253</p>
+                  <h3>LinkedIn</h3>
+                  <a href="https://www.linkedin.com/in/ziolkiewicz-michal">Mój profil</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="footer">
+          <p>@Michał Ziółkiewicz | 2020</p>
+      </div>
       <script src="js/main.js"></script>
       <script src="js/lottie.js"></script>
       <script src="js/script.js"></script>
