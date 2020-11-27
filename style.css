@@ -295,21 +295,21 @@ body{
 
 .animBcg{
     background-image: url("img/bcgPlant.png");
-    height: 765px;
-    width: 495px;
+    height: 44vw;
+    width: 29vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
-    margin-top: calc(100vh - 765px);
+    margin-top: calc(100vh - 44vw);
 }
 
 #plant{
-    height: 50vh;
+    height: 30vw;
     width: 25vw;
     float: right;
-    margin-top: calc(765px - 50vh);
-    margin-right: -70px;
+    margin-top: calc(44vw - 30vw);
+    margin-right: -4vw;
 }
 
 /*CONTACT*/
