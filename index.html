@@ -8,160 +8,255 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-      <div class="clearfix" id="start">
+      <div id="start">
           <div class="leftSide box">
-              <nav class="mainNavi">
-                  <ul class="clearfix">
-                      <li><a href="#about">O mnie</a></li>
-                      <li><a href="#projects">Projekty</a></li>
-                      <li><a href="#experience">Doświadczenie</a></li>
-                      <li><a href="#contact">Kontakt</a></li>
-                  </ul>
+              <nav role="navigation">
+                  <div id="menuToggle">
+                      <input type="checkbox">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <ul id="menu">
+                          <li><a href="#about">01_O mnie</a></li>
+                          <li><a href="#projects">02_Projekty</a></li>
+                          <li><a href="#experience">03_Doświadczenie</a></li>
+                          <li><a href="#contact">04_Kontakt</a></li>
+                      </ul>
+                  </div>
               </nav>
-              <div class="text">
-                  <p>Cześć!</p>
-                  <p>Nazywam się Michał i jestem Junior frontend developerem. Zjedź niżej żeby lepiej mnie poznać.</p>
+                  <div class="text">
+                      <p>Cześć!</p>
+                      <p>Nazywam się Michał i jestem Junior React/React native developerem. Zjedź niżej żeby lepiej mnie poznać.</p>
+                  </div>
                   <div id="scrollDown"></div>
-              </div>
           </div>
           <div class="rightSide box">
-              <h1>Michał Ziółkiewicz</h1>
-              <h1>Frontend developer</h1>
+              <div class="name">
+                  <h1>Michał Ziółkiewicz</h1>
+                  <h1>Frontend developer</h1>
+              </div>
               <div class="photo"></div>
           </div>
       </div>
 
       <div id="about">
-          <div class="aboutText">
-              <h3>Coś o mnie</h3>
-              <p>Mam 23 lata, interesuję się programowaniem od około 2 lat. Próbowałem wielu języków np.: Python, C++, ANSI C, Java, ale żaden z nich nie przyciągnął mnie do siebie na dłużej. Dopiero spróbowanie swoich sił w technologiach webowych okazało się dla mnie strzałem w dziesiątkę. </p>
-              <h3>Moje zainteresowania</h3>
-              <p>Interesuje się programowaniem i elektroniką, mam w zanadrzu kilka mniejszych projektów na bazie Arduino. Mój ostatni projekt to aplikacja do analizy wiadomości z Messengera oparta na electronie. W wolnym czasie lubię też jeździć na rowerze i zwiedzać okoliczne leśne ścieżki.</p>
+          <div class="projectsLabel">
+              <h3>01_Coś_o_mnie</h3>
           </div>
-          <div id="coding"></div>
+          <p class="aboutText">Mam 24 lata, od około 4 lat interesuję się programowaniem. Zaczynając swoją przygodę w tym świecie próbowałem wielu języków jednak JS spodobał mi się najbardziej przez to najczęściej z niego korzystam. Oprócz kodowania stron, aplikacji webowych i mobilnych interesuję się elektroniką i drukiem 3D. W moich projektach jest nawed dodane urządzenie nad którym aktualnie pracuję. Jednak na ten moment wszystko co robię to dodatkowe zajęcia ponieważ w tygodniu pracuję, (Niestety jeszcze nie w branży IT) a w weekndy studiuję Infromatykę. Jeśli uda mi się wykrzesać jakiś czas wolny lubię jeździć na rowerze i zwiedzać okoliczne ścieżki. </p>
       </div>
 
       <div id="projects">
-          <div class="toLeft project animate__animated">
-              <div class="pizza image"></div>
-              <section class="icons">
-                  <h3>Pizzeria</h3>
-                  <p>Projekt strony internetowej pizzerii. Kod jest dostępny na GitHubie.</p>
-                  <img src="img/icons/html5.png" alt="html5 logo"/>
-                  <img src="img/icons/css3.png" alt="css3 logo"/>
-                  <img src="img/icons/js.png" alt="javascript logo"/>
-                  <img src="img/icons/github.png" alt="github logo">
-              </section>
+
+          <div class="projectsLabel">
+              <h3>02_Prywatne_projekty</h3>
           </div>
 
-          <div class="toRight project animate__animated">
-              <div class="calculator image"></div>
+          <div class="toLeft project animate__animated">
+              <div class="helpfool image"></div>
+              <div class="icons">
+                  <h3>Helpfool</h3>
+                  <p>Aplikacja która ma za zadanie zebrać przydatne linki w jednym miejscu tak, żeby mieć do nich jak najszybszy dostęp</p>
+                  <a href="https://helpfool.netlify.app/" target="_blank">
+                      <p>>> Live</p>
+                  </a>
+                  <a href="https://github.com/MichalZiolkiewicz/HelpfoolSite" target="_blank">
+                      <p>>> GitHub</p>
+                  </a>
+              </div>
+          </div>
+
+          <div class="toLeft project animate__animated">
+              <div class="ToDo image"></div>
               <section class="icons">
-                  <h3>Kalkulator</h3>
-                  <p>Kalkulator napisany w czystym JS. Kod jest dostępny na GitHubie.</p>
-                  <img src="img/icons/html5.png" alt="html5 logo"/>
-                  <img src="img/icons/css3.png" alt="css3 logo"/>
-                  <img src="img/icons/js.png" alt="javascript logo"/>
-                  <img src="img/icons/github.png" alt="github logo">
+                  <h3>ToDo</h3>
+                  <p>Aplikacja do zapisywania zadań do wykonania. Posiada zmianę trybu, sortowanie zadań i możliwość kasowania.</p>
+                  <a href="https://fmctodoapp.netlify.app" target="_blank">
+                      <p>>> Live</p>
+                  </a>
+                  <a href="https://github.com/MichalZiolkiewicz/reactTodo" target="_blank">
+                      <p>>> GitHub</p>
+                  </a>
               </section>
           </div>
 
           <div class="toLeft project animate__animated ">
-              <div class="travelAgency image"></div>
+              <div class="postViewer image"></div>
               <section class="icons">
-                  <h3>Biuro podróży</h3>
-                  <p>Projekt strony internetowej biura podróży. Kod jest dostępny na GitHubie.</p>
-                  <img src="img/icons/html5.png" alt="html5 logo"/>
-                  <img src="img/icons/css3.png" alt="css3 logo"/>
-                  <img src="img/icons/js.png" alt="javascript logo"/>
-                  <img src="img/icons/github.png" alt="github logo">
+                  <h3>Przeglądarka postów</h3>
+                  <p>Aplikacja korzystająca z <a href="https://jsonplaceholder.typicode.com/" style="color: #004043">API</a>. Wczytuje posty, pozwala je przeglądać, sortować czy usuwać.</p>
+                  <a href="https://post-viewer-mz.netlify.app" target="_blank">
+                      <p>>> Live</p>
+                  </a>
+                  <a href="https://github.com/MichalZiolkiewicz/postsviewer" target="_blank">
+                      <p>>> GitHub</p>
+                  </a>
               </section>
           </div>
+
+          <div class="toLeft project animate__animated">
+              <div class="filmsFinder image"></div>
+              <section class="icons">
+                  <h3>Films finder</h3>
+                  <p>Aplikacja wykorzystująca <a href="" style="color: #004043">TMDB API</a>, pozwala wyszukać film i wyświetlić jego szczegóły</p>
+                  <a href="https://movies-finder-mz.netlify.app/#/" target="_blank">
+                      <p>>> Live</p>
+                  </a>
+                  <a href="https://github.com/MichalZiolkiewicz/filmsfinder" target="_blank">
+                      <p>>> GitHub</p>
+                  </a>
+              </section>
+          </div>
+
+          <div class="toLeft project animate__animated ">
+              <div class="employeesManager image"></div>
+              <section class="icons">
+                  <h3>Employees manager</h3>
+                  <p>Prosta aplikacja do zarządania pracownikami</p>
+                  <a href="https://codesandbox.io/s/usermanager-forked-5xygl" target="_blank">
+                      <p>>> Live</p>
+                  </a>
+                  <a href="https://github.com/MichalZiolkiewicz/userManager" target="_blank">
+                      <p>>> GitHub</p>
+                  </a>
+              </section>
+          </div>
+
+          <div class="toLeft project animate__animated">
+              <div class="filmsFinderMobile image mobile"></div>
+              <section class="icons">
+                  <h3>Films finder - mobile</h3>
+                  <p>Mobilna i zarazem bardziej rozbudowana wersja swojej webowej wersji</p>
+                  <a href="https://github.com/MichalZiolkiewicz/movies-finder-mobile" target="_blank">
+                      <p>>> GitHub i APK</p>
+                  </a>
+              </section>
+          </div>
+
+          <div class="toLeft project animate__animated ">
+              <div class="wateringStation image"></div>
+              <section class="icons">
+                  <h3>Stacja podlewająca</h3>
+                  <p>Urządzenie odpowiadające za pilnowanie i regularne podlewanie do 5 roślin.</p>
+                  <a href="https://github.com/MichalZiolkiewicz/wateringMachine" target="_blank">
+                      <p>>> GitHub</p>
+                  </a>
+              </section>
+          </div>
+
+          <div class="projectsLabel">
+              <h3>Komercyjne projekty</h3>
+          </div>
+
+          <div class="toLeft project animate__animated">
+              <div class="asenizacja image mobile"></div>
+              <section class="icons">
+                  <h3>Asenizacja.online</h3>
+                  <p>System dwóch aplikacji dla kleintów i kierowców. Klient może łatwo zamówić odbiór szamba, kierowca zaś ma dostępny panel ze zleceniami.</p>
+                  <a href="https://play.google.com/store/apps/details?id=com.szambo.online&hl=pl&gl=US" target="_blank">
+                      <p>>> Sklep Play</p>
+                  </a>
+              </section>
+          </div>
+
+          <div class="toLeft project animate__animated">
+              <div class="bookfood image mobile"></div>
+              <section class="icons">
+                  <h3>BookFood</h3>
+                  <p>Aplikacja mobilna służąca do zamawiania jedzenia</p>
+                  <a href="https://play.google.com/store/apps/details?id=com.bookfood&hl=pl&gl=US" target="_blank">
+                      <p>>> Sklep Play</p>
+                  </a>
+              </section>
+          </div>
+
       </div>
 
-      <div id="experience" class="clearfix">
-        <div class="leftText">
-            <div class="topText">
-                <h3>Moje doświadczenie</h3>
-                <p>Na ten moment nie posiadam komercyjnego doświadczenie w programowaniu. Całą wiedzę zdobyłem przez naukę z kursów internetowych oraz miesięczny staż w jednym z Poznańskich softwarehousów. Staram się pisać czysty i czytelny kod oraz na bieżąco się dokształcać.</p>
-            </div>
-            <div class="technologies">
-                <h3>Technologie: </h3>
-                <div class="wrap clearfix">
-                    <section class="programming">
-                        <p>Programowanie:</p>
-                        <img src="img/icons/html5.png" alt="html5 logo"/>
-                        <img src="img/icons/css3.png" alt="css3 logo"/>
-                        <img src="img/icons/js.png" alt="javascript logo"/>
-                    </section>
-                    <section class="programs">
-                        <p>Programy: </p>
-                        <img src="img/icons/xd.png" alt="adobe xd logo">
-                        <img src="img/icons/visualstudio.png" alt="visual studio logo">
-                        <img src="img/icons/webstorm.png" alt="webstorm logo">
-                    </section>
-                    <section class="versionControl">
-                        <p>System kontroli wersji:</p>
-                        <img src="img/icons/github.png" alt="github logo">
-                        <img src="img/icons/bitbucket.png" alt="bitbucket logo">
-                    </section>
-                </div>
-            </div>
-        </div>
-        <div class="sideAnimation">
-            <div class="animBcg">
-                <div id="plant"></div>
-            </div>
-        </div>
+      <div id="experience">
+          <div class="projectsLabel">
+              <h3>03_Moje_doświadczenie</h3>
+          </div>
+
+          <p class="aboutText">Od około 5 miesięcy pracuję jako Junior React Native developer. Przez ten czas miałem okazję zmierzyć się z wieloma wyzwaniami co dało mi okazję do sporego rozwoju. Udało mi się pracować przy wyżej opisanych projektach komercyjnych. Staram się regularnie rozwijać realizując pomysły które wpadają mi do głowy. Tak jak np. strona z przydatnymi linkami czy stacja podlewająca.</p>
+
+          <div class="wrapper">
+              <p>Z tego umiem korzystać:</p>
+              <ul>
+                  <li>
+                      <div class="react ico"></div>
+                  </li>
+                  <li>
+                      <div class="android ico"></div>
+                  </li>
+                  <li>
+                      <div class="aws ico"></div>
+                  </li>
+                  <li>
+                      <div class="css ico"></div>
+                  </li>
+                  <li>
+                      <div class="figma ico"></div>
+                  </li>
+                  <li>
+                      <div class="github ico"></div>
+                  </li>
+                  <li>
+                      <div class="gitlab ico"></div>
+                  </li>
+                  <li>
+                      <div class="html_ico ico"></div>
+                  </li>
+                  <li>
+                      <div class="adobe ico"></div>
+                  </li>
+                  <li>
+                      <div class="postgres ico"></div>
+                  </li>
+                  <li>
+                      <div class="postman ico"></div>
+                  </li>
+                  <li>
+                      <div class="redux ico"></div>
+                  </li>
+                  <li>
+                      <div class="webstorm ico"></div>
+                  </li>
+                  <li>
+                      <div class="jira ico"></div>
+                  </li>
+                  <li>
+                      <div class="nodejs ico"></div>
+                  </li>
+                  <li>
+                      <div class="vue ico"></div>
+                  </li>
+              </ul>
+          </div>
       </div>
 
-<!--      CONTACT      -->
       <div id="contact">
-          <div class="message">
-              <div class="description">
-                  <h3>Jesteś zainteresowan* współpracą?</h3>
-                  <p>Skontaktuj się przez poniższy formularz lub bezpośrednio przez mail, numer telefonu lub  LinkedIn.</p>
-              </div>
-              <form action="https://formsubmit.co/228f86219728a2968b15234570d6498f" method="POST" class="clearfix" >
-                  <div class="formEl">
-                      <label for="firstName">Imię</label>
-                      <input type="text" id="firstName" name="firstName">
-                  </div>
-                  <div class="formEl">
-                      <label for="email">E-mail</label>
-                      <input type="email" id="email" name="email">
-                  </div>
-                  <div class="formEl">
-                      <label for="phoneNum">Telefon</label>
-                      <input type="text" id="phoneNum" name="phoneNum">
-                  </div>
-                  <div class="formEl txtArea">
-                      <label for="message">Wiadomość</label>
-                      <textarea name="message" id="message" cols="65" rows="11"></textarea>
-                  </div>
-                  <div class="formEl">
-                      <button type="submit" class="sendMsg">Wyślij</button>
-                  </div>
-                  <input type="hidden" name="_template" value="table">
-                  <input type="hidden" name="_captcha" value="false">
-                  <input type="text" name="_honey" style="display:none">
+          <div class="projectsLabel">
+              <h3>04_Kontakt</h3>
+          </div>
+            <div>
+                <p class="aboutText">
+                    Jesteś zainteresowan* współpracą? Tędy można się ze mną skontaktować:
+                </p>
+                <ul>
+                    <li><a href="https://www.facebook.com/michal.ziolkiewicz/" target="_blank">>_Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/in/ziolkiewicz-michal/" target="_blank">>_LinkedIn</a></li>
+                    <li><a href="https://github.com/MichalZiolkiewicz" target="_blank">>_GitHub</a></li>
+                    <li>E-mail: <a href="mailto: mziolkiewicz@protonmail.com" target="_blank">mziolkiewicz@protonmail.com</a></li>
+                    <li>Telefon: <a style="user-select: all">783775253</a></li>
+                </ul>
 
-              </form>
-          </div>
-          <div class="rightInfo">
-              <div class="contactBox">
-                  <h3>Mail:</h3>
-                  <p>m.ziolkiewicz1@gmail.com</p>
-                  <h3>Telefon:</h3>
-                  <p>+48 783 775 253</p>
-                  <h3>LinkedIn</h3>
-                  <a href="https://www.linkedin.com/in/ziolkiewicz-michal">Mój profil</a>
-              </div>
-          </div>
+            </div>
+
       </div>
+
 
       <div class="footer">
-          <p>@Michał Ziółkiewicz | 2020</p>
+          <p>@Michał Ziółkiewicz | 2022</p>
       </div>
       <script src="js/main.js"></script>
       <script src="js/lottie.js"></script>
