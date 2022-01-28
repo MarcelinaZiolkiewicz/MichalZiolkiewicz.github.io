@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michał Ziółkiewicz Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-033NKQG0B3"></script>
     <script>
@@ -21,15 +20,15 @@
           <div class="leftSide box">
               <nav role="navigation">
                   <div id="menuToggle">
-                      <input type="checkbox">
+                      <input type="checkbox" id="checkbox">
                       <span></span>
                       <span></span>
                       <span></span>
                       <ul id="menu">
-                          <li><a href="#about">01_O mnie</a></li>
-                          <li><a href="#projects">02_Projekty</a></li>
-                          <li><a href="#experience">03_Doświadczenie</a></li>
-                          <li><a href="#contact">04_Kontakt</a></li>
+                          <li><a href="#about" onclick="closeMenu()">01_O mnie</a></li>
+                          <li><a href="#projects" onclick="closeMenu()">02_Projekty</a></li>
+                          <li><a href="#experience" onclick="closeMenu()">03_Doświadczenie</a></li>
+                          <li><a href="#contact" onclick="closeMenu()">04_Kontakt</a></li>
                       </ul>
                   </div>
               </nav>
